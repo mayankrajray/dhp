@@ -59,6 +59,3 @@ def get_data():
         return jsonify({"error": "No data available. Ensure data.csv is correctly formatted and available."}), 404
     return jsonify(data)
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
